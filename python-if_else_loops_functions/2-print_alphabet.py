@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-print("abcdefghijklmnopqrstuvwxyzguillaume",end="")
+print("{}".format("abcdefghijklmnopqrstuvwxyz"), end="")
