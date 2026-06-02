@@ -13,5 +13,4 @@ elif(int(digit) == 0):
     r = "and is 0"
 else:
     r = "and is less than 6 and not 0"
-
 print(f"Last digit of {number} is {digit} {r}")
