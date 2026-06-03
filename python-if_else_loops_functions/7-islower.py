@@ -7,3 +7,5 @@ def islower(c):
             check = True
             break
     return check
+
+print(islower(3))
