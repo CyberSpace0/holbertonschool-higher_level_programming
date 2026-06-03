@@ -8,4 +8,3 @@ def islower(c):
             break
     return check
 
-print(islower(3))
