@@ -6,5 +6,3 @@ def islower(c):
             check = True
             break
     return check
-
-print(islower('c'))
