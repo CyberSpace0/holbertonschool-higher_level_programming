@@ -9,6 +9,3 @@ def only_diff_elements(set_1, set_2):
         if (list(i) != dub):
             new.append(i)
     return new
-    
-
-print(only_diff_elements({ "Python", "C", "Javascript" },{ "Bash", "C", "Ruby", "Perl" }))
