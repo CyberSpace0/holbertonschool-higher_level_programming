@@ -2,8 +2,8 @@
 def safe_print_division(a, b):
     try:
         x = a / b
+        return x
     except ZeroDivisionError:
         return None
     finally:
         print(x)
-    return x
