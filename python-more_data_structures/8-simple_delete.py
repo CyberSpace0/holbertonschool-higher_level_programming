@@ -4,7 +4,7 @@ def simple_delete(a_dictionary, key=""):
         if (key == "" ):
             return a_dictionary
         else:
-            dict.pop(a_dictionary,key)
+            dict.pop(a_dictionary, key)
             return a_dictionary
-    except:
+    except Exception:
         return a_dictionary
