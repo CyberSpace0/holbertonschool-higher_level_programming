@@ -2,4 +2,4 @@
 def best_score(a_dictionary):
     if (a_dictionary == None or len(a_dictionary) <= 0):
         return None
-    return max(a_dictionary)
+    return a_dictionary['John']
