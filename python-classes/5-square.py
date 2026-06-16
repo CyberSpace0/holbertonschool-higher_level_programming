@@ -31,7 +31,7 @@ class Square:
         """print # as squares"""
         for i in range(self.size):
             for x in range(self.size):
-                print("#",end="")
+                print("#", end="")
             print("")
         if (self.size == 0):
             print("")
