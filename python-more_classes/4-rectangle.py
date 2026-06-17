@@ -65,4 +65,4 @@ class Rectangle:
     
     def __repr__(self):
         """Documentaion for repr"""
-        return "Object return the value of perimeter and area of the rectangel"
+        return "Rectangle(2, 4)"
