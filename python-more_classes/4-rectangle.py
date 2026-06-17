@@ -62,7 +62,7 @@ class Rectangle:
             if i != self.__height - 1:
                 rect += "\n"
         return rect
-    
+
     def __repr__(self):
         """Documentaion for repr"""
         return "Rectangle(2, 4)"
