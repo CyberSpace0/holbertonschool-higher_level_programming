@@ -66,3 +66,7 @@ class Rectangle:
     def __repr__(self):
         """Documentaion for repr"""
         return "Rectangle(2, 4)"
+    
+    def __delete__(self):
+        """delete function"""
+        return "Bye rectangle... (..."
