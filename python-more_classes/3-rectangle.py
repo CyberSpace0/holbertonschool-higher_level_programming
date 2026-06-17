@@ -62,3 +62,6 @@ class Rectangle:
             if i != self.__height - 1:
                 rect += "\n"
         return rect
+
+    def __str__(self):
+        self.__print__
