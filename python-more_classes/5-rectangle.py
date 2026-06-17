@@ -67,6 +67,6 @@ class Rectangle:
         """Documentaion for repr"""
         return "Rectangle(2, 4)"
 
-    def __delete__(self):
+    def __del__(self):
         """Delete function"""
         return "Bye rectangle... (..."
