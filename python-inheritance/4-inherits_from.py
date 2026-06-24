@@ -4,4 +4,4 @@
 
 def inherits_from(obj, a_class):
     """check status"""
-    return issubclass(obj, a_class)
+    return issubclass(a_class, obj)
