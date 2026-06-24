@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module containing lookup function."""
 
+
 class MyList(list):
     """list class"""
     def print_sorted(self):
