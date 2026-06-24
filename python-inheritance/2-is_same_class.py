@@ -4,4 +4,4 @@
 
 def is_same_class(obj, typ):
     """check status"""
-    return isinstance(obj, typ)
+    return type(obj) is typ
