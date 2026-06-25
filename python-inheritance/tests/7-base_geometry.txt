@@ -48,4 +48,4 @@ Test integer_validator with negative value:
     Traceback (most recent call last):
     ...
     ValueError: width must be greater than 0
-```
+
