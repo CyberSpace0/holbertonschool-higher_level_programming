@@ -23,12 +23,15 @@ class Circle(Shape):
     """Circle class."""
 
     def __init__(self, radius):
+        """initializing"""
         self.radius = radius
 
     def area(self):
+        """Return area."""
         return pi * self.radius ** 2
 
     def perimeter(self):
+        """Return perimeter."""
         return 2 * pi * self.radius
 
 
@@ -36,13 +39,16 @@ class Rectangle(Shape):
     """Rectangle class."""
 
     def __init__(self, width, height):
+        """initializing"""
         self.width = width
         self.height = height
 
     def area(self):
+        """Return area."""
         return self.width * self.height
 
     def perimeter(self):
+        """Return perimeter."""
         return 2 * (self.width + self.height)
 
 
