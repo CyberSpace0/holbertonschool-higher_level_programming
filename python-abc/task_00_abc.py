@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 """Module containing Rectangle class."""
+from abc import ABC, abstractmethod
 
 
 class Animal:
     """Animal"""
+    @abstractmethod
     def sound(self):
         """sound function"""
         pass
