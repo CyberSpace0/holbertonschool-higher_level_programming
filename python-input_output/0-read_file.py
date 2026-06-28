@@ -7,6 +7,6 @@ def read_file(filename=""):
         with open(filename, "r") as file:
             print(file.read().strip())
     except FileNotFoundError:
-        raise FileNotFoundError
+        print(f"FileNotFoundError: [Errno 2] No such file or directory: '{filename}'")
     except PermissionError:
         raise PermissionError
