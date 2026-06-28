@@ -5,7 +5,7 @@ def read_file(filename=""):
     """read function"""
     try:
         with open(filename, "r") as file:
-            content = file.read()
+            print(file.read().strip())
     except FileNotFoundError:
         print("File not found")
     except PermissionError:
