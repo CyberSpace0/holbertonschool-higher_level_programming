@@ -7,6 +7,6 @@ def read_file(filename=""):
         with open(filename, "r") as file:
             print(file.read().strip())
     except FileNotFoundError:
-        print(FileNotFoundError)
+        raise FileNotFoundError
     except PermissionError:
-        print(PermissionError)
+        raise PermissionError
