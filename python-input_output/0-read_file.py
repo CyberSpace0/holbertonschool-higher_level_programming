@@ -4,8 +4,8 @@
 def read_file(filename=""):
     """read function"""
     try:
-        with open(filename, "r") as file:
-            print(file.read().strip())
+        with open(filename, "r", encoding="utf-8") as file:
+            print(file.read(), end="")
     except FileNotFoundError:
         print(f"[FileNotFoundError] [Errno 2] No such file or directory: '{filename}'")
     except PermissionError:
