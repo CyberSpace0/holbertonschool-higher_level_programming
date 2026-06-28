@@ -3,5 +3,10 @@
 
 def read_file(filename=""):
     """read function"""
-    with open(filename,"r") as file:
-        print(file.read().strip())
+    try:
+        with open(filename, "r") as file:
+            content = f.read()
+    except FileNotFoundError:
+        print("File not found")
+    except PermissionError:
+        print("Permission denied")
