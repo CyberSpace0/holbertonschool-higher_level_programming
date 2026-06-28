@@ -4,4 +4,4 @@
 def read_file(filename=""):
     """read function"""
     with open(filename,"r") as file:
-        print(file.read())
+        print(file.read().strip())
