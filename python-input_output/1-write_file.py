@@ -2,7 +2,7 @@
 """Module containing read_file function."""
 
 
-def read_file(filename=""):
+def write_file(filename="", text=""):
     """Read a UTF-8 text file."""
     with open(filename, "a", encoding="utf-8") as file:
-        print(file.read(), end="")
+        file.write(text)
