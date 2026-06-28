@@ -5,4 +5,4 @@
 def write_file(filename="", text=""):
     """Read a UTF-8 text file."""
     with open(filename, "a", encoding="utf-8") as file:
-        print(file.write(text))
+        return file.write(text)
