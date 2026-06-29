@@ -24,7 +24,7 @@ class Student:
                 if key in attrs
             }
         return self.__dict__
-    
+
     def reload_from_json(self, json):
         """Replace all attributes using a dictionary."""
         for key, value in json.items():
