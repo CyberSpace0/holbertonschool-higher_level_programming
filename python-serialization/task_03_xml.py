@@ -26,7 +26,6 @@ def deserialize_from_xml(filename):
     for child in root:
         value = child.text
 
-        # Convert back to the appropriate type
         if value == "True":
             value = True
         elif value == "False":
