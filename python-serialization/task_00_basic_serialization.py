@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-import pickle
-
-
 """ Module Containing Student class"""
+import pickle
 
 
 def serialize_and_save_to_file(data, filename):
