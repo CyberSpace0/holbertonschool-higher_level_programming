@@ -11,5 +11,4 @@ def serialize_and_save_to_file(data, filename):
 def load_and_deserialize(filename):
     """desirialize"""
     with open(filename, "rb", encoding='utf-8') as rd:
-        load = pickle.load(rd)
-    return load
+        return pickle.load(rd)
