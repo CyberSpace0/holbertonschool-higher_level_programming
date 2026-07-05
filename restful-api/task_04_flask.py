@@ -31,7 +31,7 @@ def data():
 @app.route("/users/<username>")
 def get_user(username):
     if username in users:
-        return jsonify(users[username]), 200
+        return jsonify(users[username]), 201
 
     return jsonify({"error": "User not found"}), 404
 
