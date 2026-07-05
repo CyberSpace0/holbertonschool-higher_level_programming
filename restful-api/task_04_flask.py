@@ -54,7 +54,7 @@ def add_user():
 
     users[username] = data
 
-    return jsonify(data), 201
+    return jsonify(data), 200
 
 
 if __name__ == "__main__":
