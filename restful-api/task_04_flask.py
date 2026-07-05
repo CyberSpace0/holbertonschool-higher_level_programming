@@ -30,12 +30,10 @@ def data():
 
 @app.route("/users/<username>")
 def get_user(username):
-    """Return a user's information."""
     if username in users:
         return jsonify(users[username])
 
     return jsonify({"error": "User not found"}), 404
-
 
 @app.route("/add_user", methods=["POST"])
 def add_user():
