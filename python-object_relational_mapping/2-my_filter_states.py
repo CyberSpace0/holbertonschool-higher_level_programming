@@ -14,7 +14,6 @@ if __name__ == "__main__":
         passwd=sys.argv[2],
         db=sys.argv[3],
     )
-
     cur = db.cursor()
     cur.execute(f"SELECT * FROM states WHERE name='{sys.argv[4]}'")
     rows = cur.fetchall()
