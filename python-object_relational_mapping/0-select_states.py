@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" select state """
+"""List all states from the database in ascending order by their IDs."""
 
 import MySQLdb
 import sys
